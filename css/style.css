@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-image: url('../images/Prancheta\ 1.png');
+    background-position: center;
+    background-size: cover;
+    
+    color: #fff;
+    user-select: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 190px;
+    font-family: "Pacifico", cursive;
+    color: #ffffff;
+}
+
+.title h1{
+  font-family: "Pacifico", cursive;
+  padding-top: 30px;
+}
+
+.container p#Title {
+    font-size: calc(12px + 3vw);
+      font-family: "Pacifico", cursive;
+      margin-top: -50px;
+      margin-bottom: 30px;
+      color: #fff;
+}
+
+.countdown{
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.countdown h1{
+    font-size: 6rem;
+}
+
+.countdown p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.button{
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border: solid 2px whitesmoke;
+}
+
+@media screen and (max-width:769px){
+    .title {
+        font-size: 1.8rem;
+            margin-bottom: 150px;
+    }
+
+    .container p#Title {
+    font-size: calc(12px + 6vw);
+      font-family: "Pacifico", cursive;
+      margin-top: -50px;
+      margin-bottom: 30px;
+      color: #fff;
+}
+
+    .countdown h1{
+        font-size: 3rem;
+    }
+
+    .countdown p{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:500px){
+    .countdown div{
+        width: 50%;
+    }
+
+    .countdown p{
+        margin-bottom: 30px;
+    }
+}
